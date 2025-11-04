@@ -1,12 +1,12 @@
 # Имя воркфлоу
 name: Churn Predictor CI
 
-# Триггеры: запускать при push в main или pull request в main
+# Триггеры: запускать при push в master или pull request в master
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build-and-test:
